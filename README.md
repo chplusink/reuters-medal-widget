@@ -11,6 +11,7 @@
 
 <h2 align="center">Usage</h2>
 Place the following code wherever you want to render the widget
+
 ```
 <div id="medal-widget"></div>
 <script type="text/javascript" src="medalWidget.js"></script>
