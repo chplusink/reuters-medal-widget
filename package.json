@@ -1,0 +1,25 @@
+{
+  "name": "reuters-medal-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Vic Lam",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^1.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "style-loader": "^0.23.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4"
+  }
+}

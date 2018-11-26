@@ -1,0 +1,54 @@
+@import './css/flags.css';
+
+#medal-widget {
+  font-size: 16px;
+}
+
+#medal-widget table {
+  border-collapse: collapse;
+}
+
+#medal-widget th, td {
+  min-width: 18px;
+  padding: 6px 8px;
+}
+
+#medal-widget tr th {
+  border-bottom: 2px solid grey;
+  font-weight: 400;
+}
+
+#medal-widget tr th.active {
+  border-top: 2px solid grey;
+}
+
+#medal-widget tr th .medal-header {
+  border-radius: 12px;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+}
+
+#medal-widget td {
+  border-bottom: 1px solid silver;
+}
+
+#medal-widget .sortable { cursor: pointer }
+
+#medal-widget .pad-8-0 { padding: 8px 0 }
+#medal-widget .pad-r-40 { padding-right: 40px }
+
+#medal-widget .align-center { text-align: center }
+#medal-widget .align-left { text-align: left }
+#medal-widget .align-right { text-align: right }
+
+#medal-widget .bg-gold { background: gold }
+#medal-widget .bg-silver { background: silver }
+#medal-widget .bg-bronze { background: brown }
+
+#medal-widget .color-black { color: black }
+#medal-widget .color-gray { color: gray }
+#medal-widget .color-silver { color: silver }
+#medal-widget .color-red { color: red }
+
+#medal-widget .font-24 { font-size: 20px }

@@ -1,0 +1,19 @@
+.flag {
+  height: 17px;
+  width: 28px;
+  background-image: url('https://s3-us-west-2.amazonaws.com/reuters.medals-widget/flags.png');
+}
+
+.flag-aut { background-position: 0 0px; }
+.flag-blr { background-position: 0 -17px; }
+.flag-can { background-position: 0 -34px; }
+.flag-chn { background-position: 0 -51px; }
+.flag-fra { background-position: 0 -68px; }
+.flag-ger { background-position: 0 -85px; }
+.flag-ita { background-position: 0 -102px; }
+.flag-ned { background-position: 0 -119px; }
+.flag-nor { background-position: 0 -136px; }
+.flag-rus { background-position: 0 -153px; }
+.flag-sui { background-position: 0 -1700px; }
+.flag-swe { background-position: 0 -187px; }
+.flag-usa { background-position: 0 -204px; }
