@@ -1,6 +1,6 @@
 # reuters-medal-widget
 
-<h2 align="center">Extra libraries</h2>
+<h2>Extra libraries</h2>
 <ul>
   <li>webpack...: Bundling and managing libraries</li>
   <li>babel...: Allows coding in latest JS and React syntax</li>
@@ -9,8 +9,10 @@
   <li>axios: For simplifying AJAX requests</li>
 </ul>
 
-<h2 align="center">Usage</h2>
-Place the following code wherever you want to render the widget
+<h2>Implementation</h2>
+Dev build included in dist folder of repo so reader doesn't need to build on their own.
+
+Place the following code wherever you want to render the widget:
 
 ```
 <div id="medal-widget"></div>
