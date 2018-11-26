@@ -1,35 +1,35 @@
 @import './css/atoms.css';
 @import './css/flags.css';
 
-#medal-widget {
+#medal-widget-container {
   font-size: 16px;
 }
 
-#medal-widget table {
+#medal-widget-container table {
   border-collapse: collapse;
 }
 
-#medal-widget th, td {
+#medal-widget-container th, td {
   min-width: 18px;
   padding: 6px 8px;
 }
 
-#medal-widget th {
+#medal-widget-container th {
   border-bottom: 2px solid grey;
   font-weight: 400;
 }
 
-#medal-widget th.active {
+#medal-widget-container th.active {
   border-top: 2px solid grey;
 }
 
-#medal-widget th .medal-header {
+#medal-widget-container th .medal-header {
   border-radius: 12px;
   margin: auto;
   width: 20px;
   height: 20px;
 }
 
-#medal-widget td {
+#medal-widget-container td {
   border-bottom: 1px solid silver;
 }

@@ -7,8 +7,6 @@ import './style.css'
 
 import MedalsTable from './components/MedalsTable'
 
-const e = React.createElement;
-
 class MedalWidget extends Component {
   constructor(props) {
     super(props);
@@ -16,9 +14,11 @@ class MedalWidget extends Component {
 
   render() {
     return (
-      <div className="align-left color-gray">
-        <div className="font-24">MEDAL COUNT</div>
-        <MedalsTable initSort={this.props.initSort}/>
+      <div id="medal-widget-container">
+        <div className="align-left color-gray">
+          <div className="font-24">MEDAL COUNT</div>
+          <MedalsTable initSort={this.props.initSort}/>
+        </div>
       </div>
     )
   }
