@@ -12,9 +12,9 @@
 <h2>Build Instructions</h2>
 <ol>
   <li>Clone repo</li>
-  <li>```cd``` to repo directory</li>
-  <li>```npm install```</li>
-  <li>```npm run build```</li>
+  <li><code>cd</code> to repo directory</li>
+  <li><code>npm install</code></li>
+  <li><code>npm run build</code></li>
   <li>medalWidget.js will be built in dist directory</li>
 </ol>
 
