@@ -9,6 +9,15 @@
   <li>axios: For simplifying AJAX requests</li>
 </ul>
 
+<h2>Build Instructions</h2>
+<ol>
+  <li>Clone repo</li>
+  <li>`cd` to repo directory</li>
+  <li>`npm install`</li>
+  <li>`npm run build`</li>
+  <li>medalWidget.js will be built in dist directory</li>
+</ol>
+
 <h2>Implementation</h2>
 Dev build included in dist folder of repo so reader doesn't need to build on their own.
 
